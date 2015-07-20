@@ -1,3 +1,12 @@
+#cs ----------------------------------------------------------------------------
+Allows the Virtual Tour program to initiate the Moppy program 
+- Substitute this code snippet for the case you want to play the Moppy.
+
+After successfully getting the Moppy program (https://github.com/SammyIAm/Moppy) 
+running, place the Moppy Control program on a second monitor. This program does 
+a controlClick on the start button in the Moppy Control Application.
+#ce ----------------------------------------------------------------------------
+
 Case $Top_Left
     $iPID = SoundPlay("")
 			 Sleep(200)
