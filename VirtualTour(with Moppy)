@@ -1,0 +1,9 @@
+Case $Top_Left
+    $iPID = SoundPlay("")
+			 Sleep(200)
+			 SoundPlay ( "Recordings\Speech On.wav") ;Play "click" sound
+			 Sleep(500)
+             SoundPlay ( "Recordings\MOPPY.mp3") ; Play descriptive recording
+			 Sleep(28000) ;Allow time for the recording to finish
+			 ControlClick("Moppy Control Application","","","left",1,1165,185) ;Initiate the Moppy playing
+			 Sleep(35000) ;Allow time for the Moppy to play the entire song and stop
