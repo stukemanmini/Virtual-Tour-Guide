@@ -4,8 +4,7 @@
  Author:         Shawn Sandberg & Justin Stucki
 
  Script Function:
-	Virtual Tour Guide setup control program
-
+	Used to create and visually see the defined button locations and alter accordingly
 #ce ----------------------------------------------------------------------------
 #include <GUIConstantsEx.au3>
 #include <GUIButton.au3>
