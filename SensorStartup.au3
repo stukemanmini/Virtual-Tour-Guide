@@ -1,3 +1,7 @@
+#cs ----------------------------------------------------------------------------
+Attempt to retrieve ultrasonic sensor readings from an Arduino through a serial port.
+#ce ----------------------------------------------------------------------------
+
 #include <GUIConstantsEx.au3>
 #include <SendMessage.au3>
 #include <WindowsConstants.au3>
